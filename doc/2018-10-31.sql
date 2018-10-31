@@ -1,0 +1,9 @@
+/**
+ * 创建表
+ */
+CREATE TABLE t_user(
+  id BIGINT(20) NOT NULL AUTO_INCREMENT,
+  username VARCHAR(18),
+	password VARCHAR(18),
+	PRIMARY KEY (`id`)
+)ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
